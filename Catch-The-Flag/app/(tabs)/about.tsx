@@ -1,15 +1,12 @@
-import {StyleSheet, Text, View} from 'react-native';
-
-import {useState} from 'react';
+import { Text, View, StyleSheet } from 'react-native';
+import {Link} from "expo-router";
 import {useThemeColor} from "@/hooks/useThemeColor";
 
 
-const PlaceholderImage = require('@/assets/images/favicon.png');
-
-export default function Index() {
+export default function AboutScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Index screen</Text>
+            <Text style={styles.text}>About screen</Text>
         </View>
     );
 }
